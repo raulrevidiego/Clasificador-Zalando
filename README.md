@@ -1,10 +1,10 @@
-# 👗 Clasificación de Ropa con Fashion MNIST
+#  Clasificación de Ropa con Fashion MNIST
 
 Proyecto de Deep Learning para reconocer prendas de ropa a partir de imágenes en escala de grises, usando una Red Neuronal Convolucional (CNN) entrenada sobre el dataset Fashion MNIST de Zalando.
 
 ---
 
-## 📋 Descripción
+##  Descripción
 
 El modelo recibe imágenes de 28×28 píxeles en escala de grises y las clasifica en una de las **10 categorías de prendas** del dataset. Se parte de una arquitectura densa básica (`Flatten → Dense → Dense`) y se evoluciona hacia una CNN con regularización, data augmentation y callbacks adaptativos.
 
@@ -22,7 +22,7 @@ El modelo recibe imágenes de 28×28 píxeles en escala de grises y las clasific
 
 ---
 
-## 🏷️ Categorías del dataset
+## Categorías del dataset
 
 | ID | Clase | ID | Clase |
 |----|-------|----|-------|
@@ -37,7 +37,7 @@ Resolución: 28×28 px · Escala de grises · 10 clases balanceadas
 
 ---
 
-## ⚙️ Pipeline del proyecto
+## Pipeline del proyecto
 
 ```
 Descarga automática (tensorflow_datasets)
@@ -77,7 +77,7 @@ Evaluación
 
 ---
 
-## 🏗️ Arquitectura del modelo
+## Arquitectura del modelo
 
 ```
 Input (28, 28, 1)
@@ -108,7 +108,7 @@ Input (28, 28, 1)
 
 ---
 
-## ⚡ Callbacks
+## Callbacks
 
 | Callback | Configuración | Función |
 |----------|--------------|---------|
@@ -118,7 +118,7 @@ Input (28, 28, 1)
 
 ---
 
-## 🔧 Instalación y uso
+## Instalación y uso
 
 ### Requisitos
 
@@ -136,7 +136,7 @@ pip install tensorflow tensorflow-datasets matplotlib seaborn scikit-learn numpy
 
 ---
 
-## 📈 Resultados esperados
+## Resultados esperados
 
 Con la arquitectura CNN descrita y 10 épocas de entrenamiento:
 
@@ -149,7 +149,7 @@ Las clases con más confusiones suelen ser **Shirt ↔ T-shirt/top** y **Coat �
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow)
